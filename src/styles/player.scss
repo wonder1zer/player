@@ -1,0 +1,28 @@
+.player{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 20vh;
+    .tools{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        .icons{
+            margin: 15px 35px;
+        }
+    }
+    .range{
+        min-width: 40%;
+        display: flex;
+        justify-content: center;
+        padding: 25px 0;
+        p{
+            margin: 0 10px;
+        }
+        input{
+            width: 50%;
+        }
+    }
+    
+}

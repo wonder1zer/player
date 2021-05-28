@@ -1,0 +1,55 @@
+img{
+    width: 20%;
+    float: left;
+    margin:10px 10px 10px 0;
+}
+
+.itemList{
+    
+    clear: both;
+    &:hover{
+        background-color: aliceblue;
+    }        
+    img{
+        border-radius: 50%;
+    }
+}
+
+
+.libList{
+    position: absolute;
+    top: 0px;
+    width: 17%;
+    transform: translateX(50%);
+    transition: 0.3s ease-in;
+    opacity: 0;
+    p{
+        font-size: 36px;
+    }
+    .opacity{
+        opacity: 0.9;
+    }
+}
+
+.openLib{
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .libList{
+        width: 100%;
+        min-height: 100%;
+        background-color: #fff;
+        transform: translateX(3%);
+        transform: scale(.9,.9);
+    }
+    .itemList{
+        min-height: auto;
+        img{
+            width: 8%;
+        }
+    }
+    .openLib{
+        opacity: 1;
+    }
+}

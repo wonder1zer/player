@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import 'player.scss';
+@import 'song.scss';
+@import 'library.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+}
+
+.main{
+    width: 50%;
+    margin: 0 auto;
+}

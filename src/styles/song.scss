@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.songContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 350px;
+}
+
+.img{
+    width: 15%;    
+    border-radius: 50%;
+}
+
+button{
+    background-color: inherit;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 5px;
+    position: absolute;
+    top: 2%;
+    right: 20%;
+    z-index: 1;
+    &:hover{
+        background-color: aliceblue;
+    }
+}
